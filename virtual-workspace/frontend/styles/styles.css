@@ -1,0 +1,36 @@
+/* Basic styles for the app */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#app {
+    padding: 20px;
+}
+
+.canvas-container {
+    border: 2px solid black;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+}
+
+.room {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+}
+
+.kanban-column {
+    width: 200px;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
